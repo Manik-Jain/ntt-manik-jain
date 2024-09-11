@@ -1,6 +1,5 @@
 package com.mj.nttdata.assignment.manikjain.config;
 
-import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -19,6 +18,6 @@ public class SwaggerConfig {
 				.info(new Info().title("Manik Jain NTT Data API").description("Code assessment API for NTT Data")
 						.version("v0.0.1").license(new License().name("Apache 2.0").url("http://springdoc.org")))
 				.externalDocs(new ExternalDocumentation().description("Manik Jain NTT Data API")
-						.url(""));
+						.url("https://github.com/Manik-Jain/ntt-manik-jain"));
 	}
 }
