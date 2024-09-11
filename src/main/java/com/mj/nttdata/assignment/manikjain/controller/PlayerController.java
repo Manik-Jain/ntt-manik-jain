@@ -41,7 +41,7 @@ public class PlayerController {
 			operationId = "add new player"
 			)
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "204", description = "Record created succesffuly"),
+			@ApiResponse(responseCode = "201", description = "Record created succesffuly"),
 			@ApiResponse(responseCode = "400", description = "Bad Request"),
 	        @ApiResponse(responseCode = "500", description = "Internal Server Error"),
 	})
