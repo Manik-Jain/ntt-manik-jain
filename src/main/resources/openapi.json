@@ -151,7 +151,7 @@
           "required": true
         },
         "responses": {
-          "204": {
+          "201": {
             "description": "Record created succesffuly",
             "content": {
               "*/*": {
